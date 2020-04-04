@@ -1,0 +1,18 @@
+.section__title {
+  font-size: 72px;
+  font-family: "Gagalin";
+  color: $yellow;
+  margin-bottom: 50px;
+
+  &_color {
+    &_black {
+      color: $dark;
+    }
+  }
+
+  &_align {
+    &_centre {
+      text-align: center;
+    }
+  }
+}

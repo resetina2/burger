@@ -1,0 +1,90 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  line-height: 1.42;
+  color: $dark;
+  -webkit-font-smoothing: antialiased; //sglaguvanie
+  -moz-osx-font-smoothing: grayscale; //sglaguvanie
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-width: 940px + 20px;
+  min-height: 100%; //dlya pribitiya footera
+  overflow: hidden; //obyazatel'no(ybiraet scroll)
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; //ot rastoyanii megdy ya4eikami
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  //obnylyaem paragrafu
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.section {
+  height: 100vh; //rastanyli na vusoty okna
+  min-height: 650px; //ne sgumalis' men'we 650px
+}
+
+.visuallyhidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

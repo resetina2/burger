@@ -1,0 +1,21 @@
+//colors
+$orange: #e25028;
+$yellow: #f8b43a;
+$green: #8ac03e;
+$dark: #2f3234;
+
+//setups
+@import "_misc/mixins.scss";
+@import "_misc/font.scss";
+@import "_misc/layout.scss";
+
+//blocks
+@import "./blocks/hero.scss";
+@import "./blocks/best.scss";
+@import "./blocks/team.scss";
+@import "./blocks/reviews.scss";
+@import "./blocks/order.scss";
+
+//common
+@import "./blocks/common/btn.scss";
+@import "./blocks/common/section__title.scss";
